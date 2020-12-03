@@ -7,7 +7,7 @@ import Ex2 from './Ex-2/Home'
 import Databinding from './Databinding'
 import ExCar from './Ex-Car'
 import ExMovies from './Ex-Movies'
-
+import ShoppingCart from './ShoppingCart'
 
 function App() {
   return (
@@ -40,7 +40,10 @@ function App() {
       {/* <ExCar/> */}
 
       {/* Ex-Movie  */}
-      <ExMovies/>
+      {/* <ExMovies/> */}
+
+      {/* Shopping Cart  */}
+      <ShoppingCart/>
     </div>
   );
 }
